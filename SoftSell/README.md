@@ -1,12 +1,17 @@
-# React + Vite
+----------------------------------------Project-------------------------------------------------
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Technologies used :- Reactjs + vite and tailwindcss for styling
+Notification : -react-toastify
 
-Currently, two official plugins are available:
+I have create four page 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. ContactForm.jsx
+2. HeroSecion.jsx
+3. HowItWorks.jsx
+4.Testimonials.jsx
+5. WhyChooseUs.jsx
 
-## Expanding the ESLint configuration
+In ContactForm when user submit own query task 3 sec for submiting the query because i have added the delay for 6 sec after completing the 3 sec you have see one notification for react-toastify which is query submited and also see the data in console which you have to Enter the data in inputs fields 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+And All pages i have render in App.jsx which is the root page
+
